@@ -1,0 +1,16 @@
+{
+  "name": "react-native-react-monorepo-starter",
+  "version": "1.0.0",
+  "description": "Starter Kit for Monorepo containing react and react native projects",
+  "main": "index.js",
+  "repository": "https://github.com/ksholla20/react-native-react-monorepo-starter",
+  "author": "Sharath Holla K",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": ["**/react-native", "**/react-native/**"]
+  },
+  "private": true
+}
